@@ -36,5 +36,4 @@ public class SubmenuSanduiche implements ISubmenu {
 		
 		return sanduiche;
 	}
-
 }

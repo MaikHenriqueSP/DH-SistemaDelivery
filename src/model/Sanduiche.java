@@ -53,5 +53,4 @@ public class Sanduiche extends Lanche {
 				return "Sanduíche:" 
 				+ "\n - Lista ingredientes: " + listarIngredientes() + super.toString();
 	}
-	
 }

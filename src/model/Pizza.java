@@ -12,5 +12,4 @@ public class Pizza extends Massa {
 	public String toString() {
 		return "Pizza:\n" + super.toString();
 	}
-
 }

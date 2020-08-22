@@ -12,5 +12,4 @@ public class Lasanha extends Massa {
 	public String toString() {
 		return "Lasanha:\n" + super.toString();
 	}
-
 }

@@ -12,5 +12,4 @@ public class Macarrao extends Massa {
 	public String toString() {
 		return "Macarrão:\n" + super.toString();
 	}
-
 }

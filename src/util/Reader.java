@@ -21,7 +21,4 @@ public final class Reader {
 	public static void closeScanner() {
 		scanner.close();
 	}
-	
-	
-
 }

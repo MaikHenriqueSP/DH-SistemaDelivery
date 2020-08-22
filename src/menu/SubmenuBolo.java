@@ -28,5 +28,4 @@ public class SubmenuBolo implements ISubmenu {
 		
 		return bolo;
 	}
-
 }

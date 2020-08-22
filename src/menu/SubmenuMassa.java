@@ -38,5 +38,4 @@ public class SubmenuMassa implements ISubmenu {
 			
 		return massa;
 	}
-
 }
