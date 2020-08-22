@@ -45,6 +45,4 @@ public abstract class Lanche {
 		return "\n\nPreco: R$" + preco + 
 				"\nTempo de entrega: " + tempoEntrega + " minutos";
 	}
-
-	
 }
