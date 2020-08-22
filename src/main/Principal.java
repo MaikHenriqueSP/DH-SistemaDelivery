@@ -1,9 +1,9 @@
 package main;
 
+import menu.Pedido;
 import menu.SubmenuBolo;
 import menu.SubmenuMassa;
 import menu.SubmenuSanduiche;
-import model.Pedido;
 import util.Reader;
 
 public class Principal {

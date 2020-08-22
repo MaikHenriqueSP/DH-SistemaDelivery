@@ -12,8 +12,8 @@ public class SubmenuSanduiche implements ISubmenu {
 	public Lanche realizarPedido() {
 		sanduiche = new Sanduiche();
 		System.out.println("Ótima pedida, precisamos que você nos diga os ingredientes que gostaria em seu sanduíche.");
-		System.out.println("Lembrando que temos um limite de " + sanduiche.getLimiteIngredientes() + " por sanduíche!");
-		System.out.println("Digite 0 caso não queira colocar mais ingredientes.");
+		System.out.println("Lembrando que temos um limite de " + sanduiche.getLimiteIngredientes() + " ingredientes por sanduíche!");
+		System.out.println("Digite 0 quando não quiser colocar mais ingredientes (Mínimo de 1 ingrediente por sanduíche).");
 		String ingrediente;
 		while (!sanduiche.isSanduicheCheio()) {
 			ingrediente = Reader.readString();

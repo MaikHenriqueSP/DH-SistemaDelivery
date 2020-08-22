@@ -1,7 +1,6 @@
-package model;
+package menu;
 
 import abstractModel.Lanche;
-import menu.ISubmenu;
 import util.Reader;
 
 public class Pedido {
