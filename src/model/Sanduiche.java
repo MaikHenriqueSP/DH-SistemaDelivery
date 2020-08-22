@@ -9,7 +9,7 @@ public class Sanduiche extends Lanche {
 
 	
 	public Sanduiche() {
-		super(10);
+		super(15);
 		this.ingredientes = new String[LIMITE_INGREDIENTES];
 	}	
 	
