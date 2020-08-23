@@ -50,7 +50,7 @@ public class Sanduiche extends Lanche {
 
 	@Override
 	public String toString() {
-				return "Sanduíche:" 
+		return "Sanduíche:" 
 				+ "\n - Lista ingredientes: " + listarIngredientes() + super.toString();
 	}
 }
