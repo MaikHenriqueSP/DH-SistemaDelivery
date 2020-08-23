@@ -15,5 +15,9 @@ public abstract class Massa extends Lanche {
 	public String toString() {
 		return " - Molho: " + molho +  
 				super.toString() ;
+	}
+
+	protected String getMolho() {
+		return molho;
 	}	
 }

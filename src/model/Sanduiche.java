@@ -9,12 +9,13 @@ public class Sanduiche extends Lanche {
 
 	
 	public Sanduiche() {
-		super(15);
+		super(10.80f, 15);
 		this.ingredientes = new String[LIMITE_INGREDIENTES];
 	}	
 	
 	public void calcularPrecoBase() {
-		this.setPreco(10.8f + (indexIngrediente) * 0.50f);		
+		float precoSanduiche = this.getPreco() + (indexIngrediente) * 0.50f;
+		this.setPreco(precoSanduiche);		
 	}
 
 	public void inserirIngrediente(String ingrediente) {
@@ -36,7 +37,6 @@ public class Sanduiche extends Lanche {
 	public int getLimiteIngredientes() {
 		return LIMITE_INGREDIENTES;
 	}
-	
 	
 	public String listarIngredientes() {
 		StringBuilder tempBuilder = new StringBuilder();

@@ -14,13 +14,25 @@ public class Bolo extends Lanche {
 	public void setMassa(String massa) {
 		this.massa = massa;
 	}
+	
+	protected String getMassa() {
+		return massa;
+	}
 
 	public void setRecheio(String recheio) {
 		this.recheio = recheio;
 	}
+	
+	protected String getRecheio() {
+		return recheio;
+	}
 
 	public void setCobertura(String cobertura) {
 		this.cobertura = cobertura;
+	}
+
+	protected String getCobertura() {
+		return cobertura;
 	}
 
 	@Override
